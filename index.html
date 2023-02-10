@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
+  <title>Boarding Pass</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="boarding-pass">
+      <div>
+        <h2>Cartão de embarque</h2>
+      </div>
+
+      <img id="bg" src="./src/assets/ticket-shape.svg" alt="background">
+      <div id="ticket">
+        <div id="flight">
+          <div id="info">
+            <div id="number">
+              <p>Voo</p>
+              <h3>R$995</h3>
+            </div>
+            <div id="date">
+              <p>Data</p>
+              <h3>23/05/2023</p>
+            </div>
+          </div>
+        </div>
+        <div id="info">
+          <div id="departure">
+            <p>São paulo, Brasil</p>
+            <h1>GRU</h1>
+            <div id="time">
+              <p>17:00</p>
+            </div>
+          </div>
+
+          <div id="airplane">
+            <ion-icon name="airplane-outline"></ion-icon>
+          </div>
+
+          <div id="arrival">
+            <p>São francisco, EUA</p>
+            <h1>SFO</h1>
+            <div id="time">
+              <p>04:48</p>
+              <p>+1</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="nums">
+          <div class="num one"></div>
+          <div class="num two"></div>
+          <div class="num tree"></div>
+          <div class="num four"></div> -->
+        <div id="passager">
+          <div id="name">
+            <p>Passageiro</p>
+            <h3>Rodrigo Terron</h3>
+          </div>
+          <div id="seat">
+            <P>Assento</P>
+            <h3>28A</h3>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div id="boarding">
+          <div id="boarding-info">
+            <div>
+              <p>Embarque</p>
+              <div>
+                <h3>16:15</h3>
+              </div>
+            </div>
+            <div>
+              <p>Terminal</p>
+              <h3>2</h3>
+            </div>
+            <div>
+              <p>Portão</p>
+              <h3>15</h3>
+            </div>
+          </div>
+          <div id="qrcode">
+            <img src="./src/assets/qr-code.svg" alt="">
+            <p>Grupo de embarque 3</p>
+          </div>
+        </div>
+        <h3 style="text-align: center;">Atenção: o portão fecha 16:45</h3>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>
