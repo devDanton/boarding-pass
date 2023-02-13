@@ -12,6 +12,7 @@ body * {
 
 body {
   height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
 
   background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
   border-radius: 32px;
@@ -127,8 +128,8 @@ ion-icon {
 #passager {
   padding: 24px 19px;
   margin: 0 13px;
-  border-top: 1px dashed rgba(0, 0, 0, 0.32);
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  /* border-top: 1px dashed rgba(0, 0, 0, 0.32);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32); */
   z-index: 0;
 
   display: flex;
@@ -178,4 +179,15 @@ ion-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width:380px) {
+  #ticket {
+    gap: 15px;
+    width: 325px;
+  }
+
+  .card {
+    margin-bottom: 24px;
+  }
 }
